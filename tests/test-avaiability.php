@@ -8,15 +8,11 @@
 /**
  * Sample test case.
  */
-class SampleTest extends WP_UnitTestCase {
+class Test_avaiability extends WP_UnitTestCase {
 
 	/**
 	 * A single example test.
 	 */
-	public function test_sample() {
-		// Replace this with some actual testing code.
-		$this->assertTrue( true );
-	}
 
 	    // Plugin activation adds 'wp_pubsub_activated_time' option with current timestamp
 	function test_plugin_activation_adds_activated_time_option() {
